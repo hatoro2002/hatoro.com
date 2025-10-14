@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Castorice — Honkai: Star Rail</title>
+  <style>
+    :root{--bg:#0b0b10;--card:#0f1220;--accent:#8b5cf6;--muted:#9aa0b4}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#06060a 0%,#0e0e14 100%);color:#e6eef8}
+    .container{max-width:1000px;margin:36px auto;padding:24px}
+    header{display:flex;gap:24px;align-items:center}
+    .logo{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6ee7b7);display:flex;align-items:center;justify-content:center;font-weight:700;color:#081;box-shadow:0 6px 18px rgba(139,92,246,0.18)}
+    h1{font-size:28px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:18px}
+    .art{width:100%;height:320px;border-radius:8px;background-size:cover;background-position:center;box-shadow:inset 0 -40px 80px rgba(0,0,0,0.4)}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    h2{margin:6px 0 12px}
+    ul{margin:0;padding-left:18px}
+    .footer{color:var(--muted);font-size:13px;margin-top:18px}
+    .chip{display:inline-block;background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:13px;margin-right:8px}
+    pre{background:#05050a;padding:12px;border-radius:8px;overflow:auto;font-size:13px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">C</div>
+      <div>
+        <h1>Castorice — Honkai: Star Rail</h1>
+        <p class="lead">Halaman ringkas berisi bio, kit (skill), build, tim rekomendasi, dan lore singkat untuk Castorice.</p>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="card">
+          <div class="art" style="background-image:url('https://static.wikia.nocookie.net/honkai-star-rail/images/0/0b/Castorice_Character_Portrait.png');"></div>
+          <h2>Ringkasan Singkat</h2>
+          <p>Castorice adalah karakter 5★ ber-element Quantum yang mengikuti Path of Remembrance. Ia mampu memanggil memosprite (Netherwing/Dead Dragon) dan memiliki mekanik yang mengorbankan HP sekutu untuk menghasilkan damage besar berbasis Max HP-nya.</p>
+          <div class="grid">
+            <div>
+              <h3>Role</h3>
+              <p class="chip">Remembrance DPS</p>
+              <h3>Elemen & Path</h3>
+              <p class="chip">Quantum</p> <p class="chip">Remembrance</p>
+            </div>
+            <div>
+              <h3>Keunikan</h3>
+              <ul>
+                <li>Memanfaatkan HP sekutu untuk mengisi resource (Newbud / Stamen Nova).</li>
+                <li>Memosprite yang dipanggil bertindak sebagai unit sementara yang dapat menyerap damage dan memberi efek pada musuh.</li>
+                <li>Mempunyai kemampuan akun-wide untuk menunda kematian sekali per pertarungan.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Skill & Kit (Singkat)</h2>
+          <ul>
+            <li><strong>Basic:</strong> Serangan tunggal yang menghitung damage dari Max HP Castorice.</li>
+            <li><strong>Skill:</strong> Mengonsumsi persen HP semua sekutu untuk memberi Quantum AoE berdasarkan Max HP Castorice.</li>
+            <li><strong>Ultimate:</strong> Memanggil memosprite (Netherwing/Dead Dragon) yang memiliki HP berdasarkan resource dan menurunkan All-Type RES musuh di area.</li>
+            <li><strong>Talent / Pasif account-wide:</strong> Menunda kematian sekutu sekali per pertarungan (membawa mereka ke keadaan "Lunar Cocoon" sehingga bisa bertindak sekali lagi jika disembuhkan/shield sebelum giliran berikutnya).</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Build & Recommended</h2>
+          <div class="grid">
+            <div>
+              <h3>Relics (set)</h3>
+              <ul>
+                <li>Set yang meningkatkan Max HP dan DMG Quantum (contoh: set hp/atk hybrid yang cocok untuk kit berbasis HP).</li>
+                <li>Alternatif: Set AoE/DMG untuk memaksimalkan output Netherwing.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Light Cones</h3>
+              <ul>
+                <li>Light Cones yang meningkatkan DMG berbasis HP atau memberikan efek cooldown/energi cocok untuk rotasi Castorice.</li>
+                <li>Contoh-cone: (pilihan top-tier dan budget — isi sesuai preferensi pemain).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Tim Rekomendasi</h2>
+          <ul>
+            <li>Unit buffer yang memberi buff ATK/DMG ke Castorice.</li>
+            <li>Healer / Shield untuk mengelola HP sekutu agar tidak sampai mati saat HP dikorbankan.</li>
+            <li>Unit yang bisa mengatur Turn / SPD untuk memaksimalkan sinergi dengan Netherwing.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h2>Quick Facts</h2>
+          <ul>
+            <li>Rarity: ★★★★★</li>
+            <li>Element: Quantum</li>
+            <li>Path: Remembrance</li>
+            <li>Role: AoE Remembrance DPS / Summoner</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Ascension & Bahan</h2>
+          <p>Daftar bahan ascension dan material skill: (isi sesuai patch & versi — pastikan cek sumber resmi saat ingin menaikkan level).</p>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Fan Art & Merchandise</h2>
+          <p>Tempat cari art resmi dan merchandise: HoYoLAB, official store, dan marketplace resmi.</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div>Catatan: Konten ini dirancang sebagai halaman ringkas untuk referensi build & lore ringan. Untuk detail terperinci (angka skill, scaling, Eidolon, dan patch notes), cek panduan komunitas dan wiki resmi.</div>
+    </footer>
+  </div>
+</body>
+</html>
